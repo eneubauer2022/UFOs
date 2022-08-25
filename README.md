@@ -1,7 +1,12 @@
 # UFOs
 
 ## Overview
-- In this assignment, I used Java Script and HTML tried to provide the client a more in-depth analysis of UFO sighting by using multiple filter criteria that all work at the same time. 
+- After creating a webpage for our client, Dana, that filtered UFO sightings based on date - she asked if we could improve upon the page by adding multiple filters. She would like to include city, state, country, and shape to filter by more column heads and provide a better analysis. 
+
+## Resources
+- JavaScript
+- HTML
+- CSS
 
 ## Results
 - The user can use the filters below to filter the data. They can use any or all the filters (date, city, state, state, country, and shape) to find the results they are looking for. 
