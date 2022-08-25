@@ -58,7 +58,7 @@ if (elementValue) {
   function filterTable() {
   
     // 8. Set the filtered data to the tableData.
-    filterTable = tableData;  
+    let filteredData = tableData;  
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
@@ -71,7 +71,7 @@ if (elementValue) {
   }
   
   // 2. Attach an event to listen for changes to each filter
-  d3.selectAll(".filter").on("change", updateFilters);
+  d3.selectAll("input").on("change", updateFilters);
   
   // Build the table when the page loads
   buildTable(tableData);
